@@ -1,0 +1,167 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+
+main{
+	display: flex;
+	align-items: center;
+	background-image: url(../img/main-bg.png),
+					  url(../img/bg-1.png),
+					  url(../img/bg-2.png);
+	background-size: cover, cover, cover;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-color: #fff;
+	width: 100vw;
+	height: 100vh;
+}
+
+section{
+	display: flex;
+	position: relative;
+	margin: 0 auto;
+	width: 85.75vw;
+	height: 49vw;
+	background-color: #152335;
+	border-radius: 1vw;
+}
+
+.logo{
+	position: absolute;
+	width: 8.125vw;
+	height: 4.125vw;
+	left: 2.625vw;
+	top: 3vw;
+}
+
+.cross-img{
+	position: absolute;
+	width: 40vw;
+	height: 19.87vw;
+	left: 4.625vw;
+	bottom: 13.37vw;
+}
+
+.color-list{
+	position: absolute;
+	left: 22vw;
+	bottom: 2.5vw;
+	display: flex;
+	width: 8.75vw;
+	height: 2.25vw;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.color{
+	width: 1.1vw;
+	height: 1.1vw;
+	border-radius: 50%;
+	cursor: pointer;
+	border: 0.25vw solid transparent;
+}
+
+.color-dblue{
+	background-color: #293550;
+}
+
+.color-white{
+	background-color: #fff;
+}
+
+.color-red{
+	background-color: #F34B41;
+}
+
+.color-lblue{
+	background-color: #24E7EE;
+}
+
+.color:hover,
+.color:focus{
+	border: 0.25vw solid #8C9198;
+	width: 1.5vw;
+	height: 1.5vw;
+}
+
+.b-product_desc{
+	position: absolute;
+	right: 0;
+	right: 7vw;
+	padding-top: 9.5vw;
+	width: 23.75vw;
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	letter-spacing: 0.05em;
+}
+
+.cross-type{
+	margin-bottom: 1.87vw;
+	font-weight: 100;
+	font-size: 1.5em;
+	line-height: 1.08em;
+}
+
+.cross-desc{
+	margin-bottom: 2.87vw;
+	font-weight: 100;
+	font-size: 0.87em;
+	line-height: 0.87em;
+}
+
+.mark{
+	margin-bottom: 3.62vw;
+}
+
+.fa:hover{
+	color: #F9C819;
+}
+
+select{
+	margin-right: 0.375vw;
+	margin-bottom: 3.375vw;
+	width: 8.62vw;
+	height: 4vw;
+	padding-left: 1.625vw;
+	background-color: transparent;
+	border: 0.125vw solid #fff;
+	-webkit-appearance:none;
+	font-family: inherit;
+	font-size: 0.85em;
+	color: #fff;
+	line-height: 1.28em;
+	font-weight: 100;
+	
+}
+
+option{
+	background-color: #152335;
+	font-family: inherit;
+	font-size: 0.85em;
+	color: #fff;
+	border: 0.125vw solid #fff;
+}
+
+.cross_btn{
+	padding-top: 1.5vw;
+	width: 23vw;
+	height: 5vw;
+	background-color: transparent;
+	border: 0.125vw solid #fff;
+	text-align: center;
+	cursor: pointer;
+}
+
+.btn{
+	font-size: 0.85em;
+	color: #fff;
+	font-weight: 100;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.cross_btn:hover,
+.cross_btn:active,
+.cross_btn:focus{
+	background-color: #2A3545;
+}
